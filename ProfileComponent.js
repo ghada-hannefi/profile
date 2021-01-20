@@ -10,7 +10,7 @@ const ProfileComponent=(props)=>{
         <p>{ props.children}</p>
          <p> Name : {props.FullName}</p>
         <p> Profession :{props.profession}</p>
-        <p> About : {props.bio}</p>
+        <p> Biographie : {props.bio}</p>
     </div>)
 }
 export default ProfileComponent;
